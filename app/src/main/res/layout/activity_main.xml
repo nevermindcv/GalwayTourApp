@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chris.galwaytour2.MainActivity"
+    tools:layout_editor_absoluteY="25dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="89dp"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="100dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/mapmainbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backgroundIV">
+
+        <ImageView
+            android:id="@+id/hotelIV"
+            android:layout_width="75dp"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hotel"
+            tools:layout_editor_absoluteX="14dp"
+            tools:layout_editor_absoluteY="448dp" />
+
+        <ImageView
+            android:id="@+id/placesIV"
+            android:layout_width="75dp"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/places"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="445dp" />
+
+        <ImageView
+            android:id="@+id/restoIV"
+            android:layout_width="75dp"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/resto"
+            tools:layout_editor_absoluteX="221dp"
+            tools:layout_editor_absoluteY="432dp" />
+
+        <ImageView
+            android:id="@+id/musicIV"
+            android:layout_width="75dp"
+            android:layout_height="83dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/music"
+            tools:layout_editor_absoluteX="324dp"
+            tools:layout_editor_absoluteY="456dp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/backgroundIV"
+        android:layout_width="wrap_content"
+        android:layout_height="219dp"
+        android:layout_marginTop="31dp"
+        android:background="@drawable/g"
+        android:contentDescription="null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TittleTV" />
+
+    <Button
+        android:id="@+id/mapmainbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="116dp"
+        android:layout_marginTop="55dp"
+        android:text="Check Everything on the Maps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <TextView
+        android:id="@+id/TittleTV"
+        android:layout_width="302dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="31dp"
+        android:layout_marginTop="51dp"
+        android:gravity="center"
+        android:text="@string/TittleTV"
+        android:textColor="#8a1919"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/backgroundIV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/MmapIV"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginBottom="9dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapmainbtn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/maps" />
+</android.support.constraint.ConstraintLayout>

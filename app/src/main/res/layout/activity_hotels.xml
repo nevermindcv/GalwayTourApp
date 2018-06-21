@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.chris.galwaytour2.HotelsActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="431dp">
+
+                <TextView
+                    android:id="@+id/abbeyTitleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignStart="@+id/houseIV"
+                    android:text="@string/houseTitleTV"
+                    android:textColor="#131313"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/abbeyTV"
+                    android:layout_width="249dp"
+                    android:layout_height="423dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/houseTV"
+                    tools:layout_editor_absoluteX="252dp"
+                    tools:layout_editor_absoluteY="0dp" />
+
+                <ImageView
+                    android:id="@+id/houseIV"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="42dp"
+                    android:contentDescription="null"
+                    app:srcCompat="@drawable/house" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="239dp">
+
+                <TextView
+                    android:id="@+id/jurysTV"
+                    android:layout_width="251dp"
+                    android:layout_height="226dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/jurysTV" />
+
+                <TextView
+                    android:id="@+id/nicholasTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginStart="16dp"
+                    android:text="@string/jurysTitleTV"
+                    android:textColor="#131313"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/nicholasIV"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="42dp"
+                    android:contentDescription="null"
+                    app:srcCompat="@drawable/j" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="162dp">
+
+                <TextView
+                    android:id="@+id/blackrockTV"
+                    android:layout_width="252dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/ClaytonTV" />
+
+                <TextView
+                    android:id="@+id/blackrockTitleTV"
+                    android:layout_width="112dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="17dp"
+                    android:layout_marginStart="17dp"
+                    android:layout_toLeftOf="@+id/blackrockTV"
+                    android:layout_toStartOf="@+id/blackrockTV"
+                    android:text="@string/claytonTitleTV"
+                    android:textColor="#131313"
+                    android:textSize="15sp" />
+
+                <ImageView
+                    android:id="@+id/blackrockIV"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_alignBottom="@+id/blackrockTV"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="11dp"
+                    android:contentDescription="null"
+                    app:srcCompat="@drawable/c"
+                    tools:layout_editor_absoluteX="205dp"
+                    tools:layout_editor_absoluteY="45dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/noxTitleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/noxTitleTV"
+                    android:textColor="#131313"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/noxTV"
+                    android:layout_width="251dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="30dp"
+                    android:text="@string/noxTV" />
+
+                <ImageView
+                    android:id="@+id/cathedralIV"
+                    android:layout_width="110dp"
+                    android:layout_height="100dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="12dp"
+                    android:layout_marginTop="43dp"
+                    app:srcCompat="@drawable/nox" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/BtnMapsHotels"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See on Google Maps" />
+
+            <ImageView
+                android:id="@+id/HMapsIV"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                app:srcCompat="@drawable/maps" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

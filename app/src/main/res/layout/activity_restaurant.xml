@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="283dp">
+
+                <TextView
+                    android:id="@+id/KirwanTittleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="58dp"
+                    android:layout_marginTop="18dp"
+                    android:text="Kirwan's" />
+
+                <TextView
+                    android:id="@+id/kirwanTV"
+                    android:layout_width="225dp"
+                    android:layout_height="264dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:text="@string/kirwanTV" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="131dp"
+                    android:layout_height="103dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="58dp"
+                    app:srcCompat="@drawable/kirwan" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="193dp">
+
+                <TextView
+                    android:id="@+id/IlVicolloTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="57dp"
+                    android:layout_marginTop="11dp"
+                    android:text="Il Vicolo" />
+
+                <TextView
+                    android:id="@+id/vicoloTV"
+                    android:layout_width="226dp"
+                    android:layout_height="168dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:text="@string/vicoloTV" />
+
+                <ImageView
+                    android:id="@+id/vicoloIV"
+                    android:layout_width="130dp"
+                    android:layout_height="98dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="17dp"
+                    app:srcCompat="@drawable/vicolo" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <TextView
+                    android:id="@+id/OscarsTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="57dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Oscar's" />
+
+                <TextView
+                    android:id="@+id/oscarTV"
+                    android:layout_width="225dp"
+                    android:layout_height="240dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:text="@string/oscarTV" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="134dp"
+                    android:layout_height="108dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="51dp"
+                    app:srcCompat="@drawable/oscar" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <TextView
+                    android:id="@+id/CavaTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="37dp"
+                    android:layout_marginTop="13dp"
+                    android:text="Cava Bodega" />
+
+                <TextView
+                    android:id="@+id/cavaTV"
+                    android:layout_width="225dp"
+                    android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:text="@string/cavaTV" />
+
+                <ImageView
+                    android:id="@+id/cavaIV"
+                    android:layout_width="126dp"
+                    android:layout_height="94dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="17dp"
+                    android:layout_marginTop="40dp"
+                    app:srcCompat="@drawable/cava" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnMapResto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See on Google Maps" />
+
+            <ImageView
+                android:id="@+id/restomapsIV"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                app:srcCompat="@drawable/maps" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

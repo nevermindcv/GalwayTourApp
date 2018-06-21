@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="273dp">
+
+                <TextView
+                    android:id="@+id/roisinTittleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="26dp"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/roisinTittleTV" />
+
+                <TextView
+                    android:id="@+id/roisinTV"
+                    android:layout_width="241dp"
+                    android:layout_height="257dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="14dp"
+                    android:text="@string/roisinTV" />
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="140dp"
+                    android:layout_height="81dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginTop="49dp"
+                    app:srcCompat="@drawable/roisin" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="331dp">
+
+                <TextView
+                    android:id="@+id/TigTittleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="11dp"
+                    android:text="@string/TigTiitleTV" />
+
+                <TextView
+                    android:id="@+id/tigTV"
+                    android:layout_width="237dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/tigTV" />
+
+                <ImageView
+                    android:id="@+id/tigIV"
+                    android:layout_width="123dp"
+                    android:layout_height="86dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginTop="44dp"
+                    app:srcCompat="@drawable/tig" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="198dp">
+
+                <TextView
+                    android:id="@+id/quaysTittleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="13dp"
+                    android:text="@string/quaysTittleTV" />
+
+                <TextView
+                    android:id="@+id/quaysTV"
+                    android:layout_width="236dp"
+                    android:layout_height="189dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:text="@string/quaysTV" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="131dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="11dp"
+                    app:srcCompat="@drawable/quaysbar" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="446dp">
+
+                <TextView
+                    android:id="@+id/TaaffesTittleTV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="31dp"
+                    android:layout_marginTop="14dp"
+                    android:text="@string/TaaffesTittleTV" />
+
+                <TextView
+                    android:id="@+id/taaffesTV"
+                    android:layout_width="234dp"
+                    android:layout_height="435dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginEnd="21dp"
+                    android:text="@string/taaffesTV" />
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="127dp"
+                    android:layout_height="69dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="52dp"
+                    app:srcCompat="@drawable/ta" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnMapMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="See on Google Maps" />
+
+            <ImageView
+                android:id="@+id/musicMapIV"
+                android:layout_width="match_parent"
+                android:layout_height="41dp"
+                app:srcCompat="@drawable/maps" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

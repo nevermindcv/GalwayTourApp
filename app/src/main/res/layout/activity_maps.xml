@@ -1,0 +1,53 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.chris.galwaytour2.MapsActivity" />
+
+    <Button
+        android:id="@+id/restosatellitebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Satellite" />
+
+    <Button
+        android:id="@+id/restohybredbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/restosatellitebtn"
+        android:layout_alignRight="@+id/restosatellitebtn"
+        android:layout_below="@+id/restosatellitebtn"
+        android:text="Hybred" />
+
+    <Button
+        android:id="@+id/placenormalbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/restohybredbtn"
+        android:layout_alignStart="@+id/restohybredbtn"
+        android:layout_below="@+id/restohybredbtn"
+        android:text="Normal" />
+
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
